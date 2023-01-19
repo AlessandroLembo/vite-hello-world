@@ -5,14 +5,17 @@ export default {
         return {
 
         }
-    }
+    },
+
 }
 </script>
 
 <template>
-    <img src="../assets/jumbo.jpg" alt="jumbo">
+    <img src="../assets/jumbo.jpg">
 </template>
 
-<style>
-
+<style scoped>
+img {
+    border-radius: 20px;
+}
 </style>

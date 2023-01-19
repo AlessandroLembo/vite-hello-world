@@ -18,8 +18,6 @@ export default {
     <app-title></app-title>
     <app-hero></app-hero>
   </div>
-
-
 </template>
 
 <style>
