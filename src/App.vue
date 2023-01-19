@@ -1,19 +1,20 @@
 <script>
+import AppTitle from './components/AppTitle.vue';
 export default {
   data() {
     return {
-      name: 'Ale'
     }
+  },
+  components: {
+    AppTitle: AppTitle,
   }
 }
 </script>
 
 <template>
-  <p>Ciao {{ name }} </p>
+  <AppTitle />
 </template>
 
 <style>
-p {
-  color: red;
-}
+
 </style>
